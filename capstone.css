@@ -1,6 +1,6 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Archivo', sans-serif;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -12,7 +12,7 @@ body {
   
   header {
     position: absolute;
-    top: 4%; 
+    top: 6%; 
     left: 50%;
     transform: translate(-50%, -50%);
     width: 70%; 
@@ -35,14 +35,12 @@ body {
     margin: 0 20px;
     text-decoration: none;
     color: #FFFFFF;
-    font-weight: bold;
-    line-height: 37px;
+    line-height: 40px;
 
 }
 
 
 .logo {
-  font-weight: 500; 
   font-size: 42px; 
   line-height: 42px;
   color: #FFFFFF;
@@ -70,11 +68,11 @@ main {
   
   .hero h1 {
     font-weight: 900;
-    font-size: 140px; 
-    line-height: 120px; 
+    font-size: 8vw; 
+    line-height: 1.2; 
     text-align: center; 
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 
   
@@ -141,7 +139,7 @@ main {
   margin-bottom: 40px;
   color: #ffffff;
   text-align: left;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 
@@ -151,7 +149,7 @@ main {
   gap: 100px;
   text-align: center;
   width: 95%;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 
 
@@ -338,19 +336,34 @@ main {
 }
 
 @media (max-width: 768px) {
+  
+
+.logo {
+    font-size: 20px;      
+}
+
+
+
   .hero h1 {
-      font-size: 2rem;
+      font-size: 5vw;
+      margin-bottom: 30px;
+  }
+  .hero img{
+    margin-left: 30px;
   }
 
-  .projects {
+  .projects .showcase-grid {
       padding: 20px;
   }
 
   .project-grid {
       grid-template-columns: 1fr;
+      width: 100%;
+      
   }
 
   .showcase-grid {
+      margin-left: 30px;
       gap: 20px;
   }
 
@@ -361,10 +374,14 @@ main {
 
 @media (max-width: 480px) {
   .hero h1 {
-      font-size: 1.5rem;
+      font-size: 4vw;
+      margin-bottom: 20px;
   }
 
   .showcase-grid {
       padding: 10px;
   }
+
+  .subscription-box input[type="email"] {
+    width: 100%;}
 }
