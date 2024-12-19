@@ -55,7 +55,7 @@ body {
 /* ------------------------ */
 
 main {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 
@@ -73,17 +73,7 @@ main {
     line-height: 120px; 
     text-align: center; 
     color: #fff;
-
-
-
-
-
-
-
-    /* text-align: center;
-    font-size: 7.5rem;
-    margin-bottom: 25px; */
-    
+    margin-bottom: 60px;
   }
 
   
@@ -92,8 +82,6 @@ main {
     max-height: 672px;
     object-fit: cover;
     border-radius: 20px;
-    
-  
   }
   
 
